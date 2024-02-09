@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'baskerville', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('IT221 - home page_Coffee Shops..jpg'); /* Replace 'your-image-url.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #c0856b;
+}
+
+
+h4 {
+    margin-bottom: 10px;
+    font-family: 24px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#submit {
+    border: none;
+    background-color: #FFFDD0;
+    color: black;
+    width: 200px;
+    margin: 10px auto; /* Centering horizontally */
+    border-radius: 5px;
+    display: block; /* Ensuring it's a block-level element */
+}
+
+#submit:hover {
+    background-color: #b6b2a5;
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+
+

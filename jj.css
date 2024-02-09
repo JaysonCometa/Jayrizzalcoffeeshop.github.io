@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+    font-family: baskerville;
+}
+
+ul {
+    list-style: none;
+    height: 80px; /* Reduced height to fit better */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(128, 128, 128, 0.7); /* Transparent grey color (adjust the last value for transparency) */
+    box-shadow: 2px 0px 5px black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+ul li {
+    margin: 5px;
+    padding: 5px;
+    margin-top: 10px; /* Reduced margin-top for better spacing */
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+ul li a:hover {
+    color: #b4d3c4;
+}
+.content {
+    display: flex;
+    flex-direction: column; /* Changed flex-direction to column for better layout */
+}
+section {
+    min-height: 100vh; /* Changed height to min-height to allow for variable content */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+/* Renamed the IDs without spaces */
+
+
+
+
+#HomePage {
+    background: url('IT221 - home page_Coffee Shops..jpg');
+    background-size: cover;
+
+}
+
+
+#Menu {
+    background: linear-gradient(-45deg, #fff2d7 30%, #dabc94 0%);
+}
+#Service {
+    background: linear-gradient(-45deg, #fff2d7 30%, #dabc94 0%);
+}
+#Locations {
+    background: linear-gradient(-45deg, #fff2d7 30%, #dabc94 0%);
+}
+#AboutUs {
+    background: linear-gradient(-45deg, #fff2d7 30%, #dabc94 0%);
+}
+
+
+table {
+    margin: 0 auto; /* Center-align the entire table */
+}
+
+table th, table td {
+    text-align: center; /* Center-align table headers and data cells */
+}
+
+
+h1 {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 35%;
+    color: brown;
+}
+
+
+h3 {
+color: #483c32;
+font-family: baskerville;
+text-align: center;
+text-shadow: 0px 1px 1px #000; /* You can adjust the values for your desired border effect */
+}
+
+h2 {
+color: #FAF9F6;
+font-family: baskerville;
+text-align: center;
+text-shadow: 2px 2px 2px #000;
+}
+
+
+h4 {
+color: #000000;
+font-family: Courier New, monospace;
+text-align: center;
+text-shadow: 0px 1px 1px #000; /* You can adjust the values for your desired border effect */
+font-size: 40px; /* Adjust the font size as needed */
+margin-bottom: 10px; /* Add space below the text */
+
+}
+
+
+th {
+            color: #FF5733; /* Change to the desired color using a color code or name */
+            font-family: 'Courier New', monospace; /* Change to the desired font family */
+        }
+
+        /* You can also use specific styles for each header */
+        th:nth-child(1) {
+            color: #622A0F;
+        }
+
+        th:nth-child(2) {
+            color: #C19A6B;
+        }
+
+        th:nth-child(3) {
+            color: #FFD700;
+        }
+
+        th:nth-child(4) {
+            color: #4CAF50;
+        }
+
+td, th {
+    font-size: 26px; 
+}
+
+p {
+    font-size: 26px; 
+    text-align: center; 
+}
+
+
+tr 
+{
+
+background-color: #ffffed;
+
+}
+
+
+tr:hover 
+{
+background-color: #b4d3c4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-button {
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: #ccc; /* Change background color on hover */
+}
+
+
+
+/* Renamed the IDs without spaces */
